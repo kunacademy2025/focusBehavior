@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-phone-number-input {
+  background-color: #fff;
+}
+
+.custom-phone-input {
+  @apply -mt-[0px] py-2 px-4 h-10 bg-white rounded-md outline-none ring-1 ring-gray-300 focus-within:border-primary transition-all duration-200 ease-in-out;
+  direction: ltr;
+
+  input {
+    @apply bg-transparent text-black outline-none pl-[10px] border-none placeholder:text-[#78716c];
+    line-height: calc(1.5rem - 4px);
+    box-shadow: none !important;
+  }
+}
+
+.PhoneInputCountry {
+  padding: 10px;
+}
+
+.PhoneInputCountrySelect {
+  @apply bg-white text-white border-none outline-none p-[10px];
+
+  option {
+    @apply bg-white text-[#202020] hover:bg-[#4b5563];
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .custom-phone-input {
+    max-width: 100%;
+  }
+}

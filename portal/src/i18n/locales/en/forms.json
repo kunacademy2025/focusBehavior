@@ -1,0 +1,72 @@
+{
+  "newsletter": {
+    "error": "We couldn't subscribe you to our newsletter!",
+    "success": "You have successfully subscribed to our newsletter!",
+    "exists": "You are already subscribed to our newsletter!"
+  },
+  "titles": {
+    "contact": "Get In Touch!",
+    "donate": "Want To Donate? Make a Donation Now",
+    "volunteer": "What to Become a Volunteer? Submit Your Info Now",
+    "project_donate": "Want to Donate to This Project? Please Fill The Form Below"
+  },
+  "intros": {
+    "donate": "To donate, please fill the form below with your information and submit it, our team will review it and get in touch.",
+    "volunteer": "To become a volunteer, please fill the form below with your information and submit it, our team will review it and get in touch."
+  },
+  "fields": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email"
+    },
+    "first_name": {
+      "label": "First Name",
+      "placeholder": "Enter your first name"
+    },
+    "last_name": {
+      "label": "Last Name",
+      "placeholder": "Enter your last name"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter your phone number"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Enter your message"
+    },
+    "project": {
+      "label": "Project",
+      "placeholder": "Select a project to donate for",
+      "other": "General Donation"
+    },
+    "amount": {
+      "label": "Donation Amount",
+      "placeholder": "Enter your donation amount"
+    }
+  },
+  "validations": {
+    "required": "required",
+    "email_format": "Looks like this is not a valid email address.",
+    "phone_format": "Looks like this is not a valid phone number!",
+    "project_required": "Please select a project."
+  },
+  "errors": {
+    "captcha": {
+      "captcha_load": "Captcha has not been loaded correctly!",
+      "invalid": "Captcha verification failed!"
+    },
+    "submit": "We couldn't submit your information!"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "unsubscribe": "Unsubscribe",
+    "send": "Send"
+  },
+  "thank_you": {
+    "title": "Thank You!",
+    "contact": "Thank you for submitting your contact request, our team will review your request and get in touch with you soon!",
+    "donate": "Thank you for submitting your donation request, our team will review your request and get in touch with you soon!",
+    "volunteer": "Thank you for submitting your volunteering interest, our team will review your request and get in touch with you soon!"
+  }
+}

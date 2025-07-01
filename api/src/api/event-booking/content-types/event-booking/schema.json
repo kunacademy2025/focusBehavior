@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_bookings",
+  "info": {
+    "singularName": "event-booking",
+    "pluralName": "event-bookings",
+    "displayName": "Event Bookings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "booking_date": {
+      "type": "date",
+      "pluginOptions": {}
+    },
+    "ticket": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ticket.ticket"
+    },
+    "ticket_quantity": {
+      "type": "integer",
+      "pluginOptions": {}
+    },
+    "access_type": {
+      "type": "enumeration",
+      "enum": [
+        "ticket",
+        "subscription"
+      ],
+      "required": true,
+      "pluginOptions": {}
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "cancelled"
+      ],
+      "default": "active",
+      "pluginOptions": {}
+    },
+    "subscription": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subscription.subscription"
+    },
+    "payment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment.payment",
+      "mappedBy": "event_booking"
+    },
+    "expiry_date": {
+      "pluginOptions": {},
+      "type": "date"
+    }
+  }
+}

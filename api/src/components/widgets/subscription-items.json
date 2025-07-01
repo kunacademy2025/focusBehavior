@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_widgets_subscription_items",
+  "info": {
+    "displayName": "Subscription Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

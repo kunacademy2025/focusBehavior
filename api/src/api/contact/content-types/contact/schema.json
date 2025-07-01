@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact Request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "request_status": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Resolved"
+      ]
+    },
+    "submit_date": {
+      "type": "datetime"
+    }
+  }
+}

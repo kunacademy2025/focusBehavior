@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widgets_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

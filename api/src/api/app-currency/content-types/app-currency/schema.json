@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_currencies",
+  "info": {
+    "singularName": "app-currency",
+    "pluralName": "app-currencies",
+    "displayName": "Currencies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "exchange_rate": {
+      "type": "decimal"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "is_default": {
+      "type": "boolean"
+    }
+  }
+}

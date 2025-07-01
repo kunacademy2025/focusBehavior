@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dynamic_content_columns",
+  "info": {
+    "displayName": "Content Columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hide_title": {
+      "type": "boolean"
+    },
+    "gray_bg": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widgets.content-column-item"
+    }
+  }
+}

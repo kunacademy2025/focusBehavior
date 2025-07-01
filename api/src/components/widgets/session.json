@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_widgets_sessions",
+  "info": {
+    "displayName": "Session",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "startTime": {
+      "type": "string"
+    },
+    "endTime": {
+      "type": "string"
+    },
+    "speakers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::speaker.speaker"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "webinar",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "room_code": {
+      "type": "string"
+    }
+  }
+}

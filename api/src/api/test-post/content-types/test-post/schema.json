@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_posts",
+  "info": {
+    "singularName": "test-post",
+    "pluralName": "test-posts",
+    "displayName": "test-post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "decimal"
+    }
+  }
+}

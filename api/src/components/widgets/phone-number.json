@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_widgets_phone_numbers",
+  "info": {
+    "displayName": "Phone Number"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dynamic_highlight_lists",
+  "info": {
+    "displayName": "Highlight List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hide_title": {
+      "type": "boolean"
+    },
+    "gray_bg": {
+      "type": "boolean"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": false,
+      "component": "widgets.icon-item"
+    }
+  }
+}

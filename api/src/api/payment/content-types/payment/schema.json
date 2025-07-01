@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address_line_1": {
+      "type": "text"
+    },
+    "address_line_2": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "subtotal": {
+      "type": "decimal",
+      "default": 0
+    },
+    "discount": {
+      "type": "decimal",
+      "default": 0
+    },
+    "total": {
+      "type": "decimal",
+      "default": 0
+    },
+    "payment_status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Paid",
+        "Error",
+        "Cancelled"
+      ]
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "tax": {
+      "type": "decimal",
+      "default": 0
+    },
+    "payment_link": {
+      "type": "string"
+    },
+    "order_code": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "payment_type": {
+      "type": "enumeration",
+      "enum": [
+        "Cash",
+        "Credit Card"
+      ]
+    },
+    "remote_pay_link": {
+      "type": "text"
+    },
+    "payment_lnk_created": {
+      "type": "string"
+    },
+    "pay_link_msg": {
+      "type": "text"
+    },
+    "gateways": {
+      "displayName": "Gateway Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.gateway-item"
+    },
+    "event_booking": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event-booking.event-booking",
+      "inversedBy": "payment"
+    },
+    "currencyCode": {
+      "type": "string"
+    },
+    "currencyExchangeRate": {
+      "type": "decimal"
+    },
+    "bookingData": {
+      "type": "json"
+    }
+  }
+}

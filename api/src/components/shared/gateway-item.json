@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_gateway_items",
+  "info": {
+    "displayName": "Gateway Item"
+  },
+  "options": {},
+  "attributes": {
+    "request_date": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    },
+    "request_url": {
+      "type": "string"
+    },
+    "request_body": {
+      "type": "text"
+    },
+    "response_body": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    }
+  }
+}

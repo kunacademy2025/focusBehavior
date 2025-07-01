@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_old_contents",
+  "info": {
+    "displayName": "Old Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "date": {
+      "type": "date"
+    },
+    "publish": {
+      "type": "boolean"
+    }
+  }
+}

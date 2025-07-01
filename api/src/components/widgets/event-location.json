@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_widgets_event_locations",
+  "info": {
+    "displayName": "Event Location"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    }
+  }
+}

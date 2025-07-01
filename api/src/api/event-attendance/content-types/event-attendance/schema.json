@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_attendances",
+  "info": {
+    "singularName": "event-attendance",
+    "pluralName": "event-attendances",
+    "displayName": "Event Attendance ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "event_booking": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event-booking.event-booking"
+    },
+    "checked_in_at": {
+      "type": "datetime",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "checked_out_at": {
+      "type": "datetime",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

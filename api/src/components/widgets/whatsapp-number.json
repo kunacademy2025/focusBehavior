@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_widgets_whatsapp_numbers",
+  "info": {
+    "displayName": "Whatsapp Number"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_widgets_icon_items",
+  "info": {
+    "displayName": "Icon Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "brief": {
+      "type": "text"
+    }
+  }
+}

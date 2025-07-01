@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_dynamic_text_and_images",
+  "info": {
+    "displayName": "Text & Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_on_left": {
+      "type": "boolean"
+    },
+    "action_buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widgets.action-button"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widgets.icon-item"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "full_width_image": {
+      "type": "boolean"
+    }
+  }
+}

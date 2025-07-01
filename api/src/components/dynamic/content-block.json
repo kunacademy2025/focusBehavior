@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamic_content_blocks",
+  "info": {
+    "displayName": "Content Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "action_buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widgets.action-button"
+    }
+  }
+}
