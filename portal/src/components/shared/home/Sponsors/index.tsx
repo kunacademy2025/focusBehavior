@@ -1,7 +1,7 @@
 "use client";
 import FadeAnimation from "@/components/animation/FadeAnimation";
 import SponsorModel from "@/services/api/collections/sponsors/model";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { LogoItem } from "./logo-item";
 import { useTranslation } from "@/i18n/client";
 

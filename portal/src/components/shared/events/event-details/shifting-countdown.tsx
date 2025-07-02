@@ -1,5 +1,5 @@
 "use client";
-import { useAnimate } from "motion/react";
+import { useAnimate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "@/i18n/client";
 
