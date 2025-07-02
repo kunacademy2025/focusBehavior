@@ -147,6 +147,20 @@ export const CheckoutSummary = ({
           >
             {isPending ? t("forms.processing") : t("forms.proceed_checkout")}
           </Button>
+          <a
+            href="https://api.whatsapp.com/send?phone=97144202912&text=مرحباً، أرغب في تقسيم الدفعة مع تابي."
+            target="_blank"
+            className="mt-6 mb-4 py-3 flex justify-items-center justify-center rounded shadow-lg items-center w-full text-black bg-white hover:text-white hover:bg-primary/90"
+          >
+            <img
+              src="https://d37mzwcv0vfzkr.cloudfront.net/media_files/1738839408-2f961ed5-ad9d-4075-b964-0114f20963a5.webp"
+              alt="Tabby"
+              width={50}
+              height={50}
+              className="mx-3" 
+            />
+            { t("forms.proceed_with_tabby")}
+          </a>
         </div>
       </div>
       <input

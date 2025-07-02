@@ -1,5 +1,6 @@
 "use client";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
+
 
 export enum Direction {
   LEFT = "left",

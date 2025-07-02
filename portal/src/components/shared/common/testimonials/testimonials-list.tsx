@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { TestimonialCard } from "../../card";
 import TestimonialModel from "@/services/api/collections/testimonials/model";
 

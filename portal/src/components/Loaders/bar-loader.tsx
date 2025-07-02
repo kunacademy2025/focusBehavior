@@ -1,5 +1,5 @@
 "use client";
-import { Variants, motion } from "motion/react";
+import { Variants, motion } from "framer-motion";
 
 const variants = {
   initial: {
