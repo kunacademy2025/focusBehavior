@@ -3,8 +3,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { cn } from "@/utils";
 import React from "react";
-import {motion } from "framer-motion";
-
+import { motion } from "motion/react";
 import { DisclosureMenu } from "./disclosure-menu";
 import { SingleMenuItem } from "./single-menu-item";
 
