@@ -1,3 +1,5 @@
+
+"use client"
 import { cn } from "@/utils";
 import { AnimatePresence, motion } from "motion/react";
 import React from "react";
