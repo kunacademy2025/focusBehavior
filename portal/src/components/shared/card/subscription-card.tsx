@@ -1,5 +1,5 @@
 import { cn } from "@/utils";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
 

@@ -1,6 +1,6 @@
 "use client";
 import { Dialog, DialogPanel } from "@headlessui/react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import React from "react";
 
 export const Modal = ({
